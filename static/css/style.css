@@ -1,0 +1,42 @@
+body {
+    padding-top: 1.5rem;
+}
+
+.img-bg {
+    background-image: url(../img/bg2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  */
+
+.descricao {
+    width: 90vw;
+    margin: 2rem auto;
+}
+
+.descricao__img-descricao {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem auto;
+    border-radius: 50%;
+}
+
+/*  */
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.rodape__titulo {
+    color: #fdfdfd;
+    font-size: 0.75rem;
+    text-align: center;
+    transform: translateY(0.25rem);
+}
