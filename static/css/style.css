@@ -14,6 +14,17 @@ a {
 }
 
 /*  */
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.foto-logo {
+    width: 30px;
+}
+
+/*  */
 
 .descricao {
     width: 90vw;
@@ -95,6 +106,21 @@ a {
     font-size: 0.8rem;
     line-height: 1rem;
     text-align: center;
+}
+
+/*  */
+
+.icone-contato {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 2rem;
+    right: 0.5rem;
+
+    background-image: url("../img/WhatsApp-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {
